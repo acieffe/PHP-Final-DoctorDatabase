@@ -1,0 +1,132 @@
+/*
+  Assignment: Doctor
+  Author: Matthew Baugh
+  Date: 11/12/2020
+  Purpose: Style the page with Gold accents
+*/
+
+body {
+  background-color: black;
+  color: #d0b64f;
+  width: 100%;
+  margin: 0;
+}
+
+#header {
+  text-align: right;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+h1,
+h2,
+h6,
+p,
+span {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+nav,
+form,
+table {
+  background-image: linear-gradient(to left bottom, #f0d547, #916f27, #f1d547);
+  border: #d0b64f 5px groove;
+  border-radius: 20px;
+  margin: 0 auto 10px;
+  padding: 5px 20px;
+  color: black;
+}
+
+.dbtable {
+  margin: 0 auto;
+}
+
+.dbtable th {
+  border-left: #d0b64f 2px groove;
+  border-right: #d0b64f 2px groove;
+}
+
+.dbtable td {
+  border: #d0b64f 2px groove;
+}
+
+#login {
+  width: 500px;
+}
+
+.bad,
+.bad a {
+  color: orangered;
+  font-weight: bolder;
+}
+
+#good {
+  color: chartreuse;
+}
+
+#patientsInput {
+  width: 500px;
+}
+
+#selectForm {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#dataSelect,
+#patientData {
+  margin: 0 auto;
+}
+
+input,
+select {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-bottom: 2px;
+}
+
+input:hover,
+select:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+input:active,
+select:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+#birthdate,
+#gender,
+#mstatus,
+#insure {
+  padding: 0 5px 0 0;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: #d0b64f 2px groove;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
